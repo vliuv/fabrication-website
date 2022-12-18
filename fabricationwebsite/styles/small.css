@@ -1,0 +1,135 @@
+@import "large.css";
+
+body {
+}
+
+#logoTriangle {
+  width: 25px;
+  height: 25px;
+}
+
+#name {
+  display: none;
+}
+
+.button {
+  margin: 0px;
+}
+
+h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 16px;
+  font-size: 0.75em;
+}
+
+#bigTriangle {
+  display: none;
+}
+
+#fabrication {
+  position: relative;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 140px;
+}
+
+#fabrication h3 {
+  font-size: 3.2em;
+}
+
+.caption {
+  position: absolute;
+  right: 15%;
+  top: 170px;
+  font-size: 0.8em;
+  text-align: center;
+  width: 70%
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "a"
+  "b"
+  "c"
+  "d"
+  "e"
+  "f"
+  "g"
+  "h"
+  "i"
+  "j";
+}
+
+#butterflyImg, #hourglassImg, #orangesImg {
+  display: none;
+}
+
+.sectionTitle {
+  font-size: 3em;
+}
+
+.sectionP {
+  font-size: 1.05em;
+}
+
+ul {
+  font-size: 1.05em;
+}
+
+.media1 .video, .media5 .mediaImg, .media7 .mediaImg {
+  margin: 30px 30px 15px 30px;
+}
+
+.media2 .mediaImg, .media3 .mediaImg, .media8 .mediaImg, .media9 .mediaImg {
+  margin: 15px 30px 15px 30px;
+}
+
+.media4 .mediaImg, .media6 .mediaImg, .media10 .mediaImg {
+  margin: 15px 30px 30px 30px;
+}
+
+.media1 .video video {
+  height: 350px;
+}
+
+.media2 .mediaImg img {
+  height: 400px;
+}
+
+.media5 .mediaImg img {
+  height: 800px;
+}
+
+.media6 .mediaImg img {
+  height: 800px;
+}
+
+.media7 .mediaImg img {
+  height: 400px;
+}
+
+.media8 .mediaImg img {
+  height: 400px;
+}
+
+.media9 .mediaImg img {
+  height: 600px;
+}
+
+#aboutTriangle {
+  display: none;
+}
+
+.aboutText {
+  width: 100%;
+}
+
+.aboutTitle {
+  font-size: 5em;
+}
